@@ -397,6 +397,7 @@ function display_overall_summary(all_results)
 end
 
 # Run the demo
-if abspath(PROGRAM_FILE) == @__FILE__
-    results = main()
-end
+# if abspath(PROGRAM_FILE) == @__FILE__
+#     results = main()
+# end
+results = main()
